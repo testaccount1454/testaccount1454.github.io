@@ -8,6 +8,7 @@ Section: Tweaks
 Depends: mobilesubstrate (>= 0.9.3367)
 Architecture: iphoneos-arm
 Version: 0.2.1
+Size: 10240
 Installed-Size: 228
 
 
