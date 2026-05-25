@@ -1,0 +1,8 @@
+Origin: everyone i took the debs from
+Label: mycydiarepo
+Suite: stable
+Version: 1.0
+Codename: ios
+Architectures: iphoneos-arm
+Components: main
+Description: archived debs. note that these debs are not mine.
