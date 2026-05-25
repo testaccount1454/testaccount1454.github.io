@@ -1,5 +1,5 @@
-Filename: debs/dev.playday3008.legacywififix_0.2.1_iphoneos-arm.deb
 Package: dev.playday3008.legacywififix
+Filename: debs/dev.playday3008.legacywififix_0.2.1_iphoneos-arm.deb
 Name: Legacy WiFi Fix
 Description: Fixes the RSN IE AKM-selection bug on iOS 3.x-12.x: strips AKM suites outside the range the OS supports (1..2 on iOS 3-5, 1..4 on iOS 6-7, 1..6 on iOS 8+) from IE_KEY_RSN_AUTHSELS so the AKM selector picks a supported AKM instead of being poisoned by a later unknown one (e.g. SAE=8). Restores association with WPA2/WPA3 transitional networks.
 Maintainer: PlayDay
@@ -8,7 +8,10 @@ Section: Tweaks
 Depends: mobilesubstrate (>= 0.9.3367)
 Architecture: iphoneos-arm
 Version: 0.2.1
-Size: 10240
 Installed-Size: 228
+Size: 10240
+MD5sum: 43a22810b6c6d8325f77b08f6f2eb7cd
+
+
 
 
